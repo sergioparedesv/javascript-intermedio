@@ -1,0 +1,19 @@
+githib.com : Unirte a equipos de desarrollo.
+
+Crear cuenta
+crear repositorio
+ir a la terminal
+crear proyecto.
+
+
+git init
+
+git add .
+
+git commit -m "first commit"
+
+git remote add origin git@github.com:sergioparedesv/javascript-intermedio.git
+
+git pull --rebase origin main
+
+git push origin main
