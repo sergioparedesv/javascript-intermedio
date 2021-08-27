@@ -1,4 +1,17 @@
-// Paso 1. Crear código que nos calcule el promedio.
+// Paso 1. Crear código que nos calcule el promedio en un for
+// Actividad 1.Crear un for que recorra un array y sume sus elementos.
+// Paso 2. Crear una función que nos calcule el promedio
+// Actividad 2.Crear la función
+// Paso 3. Implementar función reduces
+// Actividad 3: Calcular factorial.
+
+const lista = [
+    100,
+    200,
+    300,
+    500,
+];
+
 /* 
 const lista = [
     100,
@@ -50,3 +63,5 @@ function calcularMediaArimetica(lista){
     return promedioLista;
 
 }
+
+console.log(calcularMediaArimetica(lista));

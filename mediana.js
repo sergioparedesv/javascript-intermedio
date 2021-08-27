@@ -1,3 +1,5 @@
+//Paso 1: Definir vector
+
 const lista1 = [
     100,
     200,
@@ -7,9 +9,11 @@ const lista1 = [
 /* 
 const mitadLista1 = lista1.length / 2;
  */
+
+//Paso 2: definir la mitad de un vector.
 const mitadLista1 = parseInt(lista1.length / 2);
 
-
+//Paso 3: Definir si un número es par o impar
 
 function esPar(numero){
     if(numero%2 === 0){
@@ -20,7 +24,18 @@ function esPar(numero){
 
 }
 
+//Paso 4: definir una función 
+function esPar(numero){
+    if(numero%2 === 0){
+        return true;
+    }else{
+        return false;}
+    }
+
+//Paso 5: Definir mediana
+
 let mediana;
+//Paso 6: Colocar los elementos
 
 if (esPar(lista1.length)){
     //Necesitamos dos elementos
@@ -30,10 +45,7 @@ if (esPar(lista1.length)){
     const elemento2 = lista1[mitadLista1];
     mediana =  (elemento1 + elemento2)/2;
     console.log("Es par :" + mediana);
-
-    
-
-} else{
+}else{
     //Posición mitad lista 1 dentro de lista 1
     //Mediana
     mediana = lista1[mitadLista1];
@@ -47,6 +59,12 @@ if (esPar(lista1.length)){
 
 //RETO 3 Ordenar un array con el método SORT.
 
+
+
+//Ordenar.
+
+
+ 
 var puntos = [10, 2, 20, 1];
 ordenados = puntos.sort();
 console.log(ordenados);
@@ -54,8 +72,18 @@ console.log(ordenados);
 
 var arr = [ 40, 1, 5, 200, -5, 7, 40 ];
 function comparar ( a, b ){ return a - b; }
-arr.sort( comparar ); 
+arr.sort(comparar); 
+console.log(arr); 
+console.log(arr.length);
 
-const NUMBERS = [2, 2, 2, 2, 2, 4, 5, 5, 5, 5, 5, 5, 5, 5, 9, -1, 20];
-function comparar ( a, b ){ return a - b; }
-NUMBERS.sort( comparar ); 
+var numbers = [ 40, 1, 5, 200, -5, 7, 40 ];
+console.log(numbers.sort);
+cnosole.log(numbers.sort(function (anterior, siguiente)
+    if (prev > next){
+        return 1;
+    }
+    if (prev < next){
+        return -1;
+    }
+    return 0;
+}));
